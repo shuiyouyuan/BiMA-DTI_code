@@ -100,7 +100,7 @@ if __name__ == '__main__':
     dataset_name = 'BioSNAP'
     for repeat in range(repeats):
 
-        data_root = f'/data/DTA/MambaDTA/{dataset_name}/'
+        data_root = f'/data/{dataset_name}/'
     
         dataFolder = data_root + split_mode + '/' + str(repeat) + '/'
         """load data"""
